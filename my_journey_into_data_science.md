@@ -10,14 +10,14 @@ Okay, if you are still interested in learning more details, buckle up and read o
 
 Among many other topics in Data Science, what interests me the most is the theory behind and the development of **language natural processing**. More specifically, I am interested in how natural language processing deals with sentences such as: "I think that unicorn is a real animal" or "I believe that snow is pink" (such sentences are known as [Propositional Attitudes](https://plato.stanford.edu/entries/prop-attitude-reports/) in analytic philosophy). "Why does this question matter?", you might ask. Well, let's play a little thought game before I move forward.  
 
-    Let's consider the following scenario: After years of dating, Lois Lane still has absolutly no idea that her lover, Clark Kent, is the very same person as the superhero who she has a crash on, the Superman (how does this plot makes any sense though, is beyond the scope of my blog post). Now let's consider the following two statements: 
-
-        1. Lois Lane believes that Superman wears tight spandex and flies around to save people's life. 
-        2. Lois Lane believes that Clark Kent wears tight spandex and flies around to save people's life. 
-
-    Which of the two sentences do you consider true (in the DC universe, of course)? 
-
-    This seems to be a no brainer: the first one. However, since Superman and Clark Kent is the very same person, why can't we switch them in these two sentences and still get the same result?  
+> Let's consider the following scenario: After years of dating, Lois Lane still has absolutely no idea that her lover, Clark Kent, is the very same person as the superhero who she has a crash on, the Superman (how does this plot makes any sense though, is beyond the scope of my blog post). Now let's consider the following two statements: 
+>
+>   1. Lois Lane believes that Superman wears tight spandex and flies around to save people's life. 
+>   2. Lois Lane believes that Clark Kent wears tight spandex and flies around to save people's life. 
+> 
+> Which of the two sentences do you consider true (in the DC universe, of course)? 
+> 
+> This seems to be a no brainer: the first one. However, since Superman and Clark Kent is the very same person, why can't we switch them in these two sentences and still get the same result?  
 
 Feeling perplexed? You are not alone! This seemingly easy question (known as [Frege's Puzzle](https://plato.stanford.edu/entries/prop-attitude-reports/#FrePuz) has triggered decades-long debates among philosophers and logicians. I was first exposed to Frege's theory when I was an exchange student studying philosophy at University of Göttingen in Germany. My studies there kindled my interests in philosophy of language, formal logic, and early analytic philosophy. In the following five years, I spent significant amount of time thinking and studying this subject and related topics, and gained two Master's degrees along the way (MA in German Language and literature at University at Colorado Boulder; MA in philosophy at New York University). 
 
