@@ -56,7 +56,7 @@ I had a moment of Déjà vu when I first learned about list comprehensions in Py
 This can be read as "S is the set of all numbers 'x squared' where x is an item in the set of integers between 0 and 20, for which x doubled is less than 21". Using this as an example, let's compare this notation with Python list comprehension expression: 
 
 - The curly braces show that the result S is a set; whereas in Python, square braces are used to indicated that the result is a list (For dictionary comprehensions in Python, curly braces are used, but it does not indicate the result is a set). 
-- Within the curly braces, and left of the " | ",  x**2 is the output notation, same as list comprehension.
+- Within the curly braces, and left of the vertical bar,  x**2 is the output notation, same as list comprehension.
 - The part on the right of the vertical bar is equivalent to the `for` clause in list comprehension. 
 - On the right of the comma is a filter, which is the same as the `if` clause in list comprehension. 
 
@@ -80,8 +80,8 @@ As we can see, the resemblance between list comprehensions in Haskell and set-bu
 
 This will conclude my blog post. I hope that through the comparison between list comprehensions in Python, and set-builder notation, the syntax and usage of the former will become clearer for people who are not familiar with this expression. For myself, I hope to explore more about the application of list comprehensions in functional programming languages. 
 
-Thank you for reading. As always, I'd love to hear from you if you have any comments or feedback.
-
+Thank you for reading. As always, I'd love to hear from you if you have any comments or feedback.     
+    
 ___
 
 ## References
