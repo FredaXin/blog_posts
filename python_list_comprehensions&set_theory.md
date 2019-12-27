@@ -42,7 +42,7 @@ Since a list comprehension can always be written as a `for` loop, why do we want
   than manual `for` loop statements (often roughly twice as fast) because their
   iterations are performed at C language speed inside the interpreter, rather
   than with manual Python code. Especially for larger data sets, there is often
-  a major performance advantage to using this expression"
+  a major performance advantage to using this expression."
 
 ## Set-Builder Notation in Set Theory
 
