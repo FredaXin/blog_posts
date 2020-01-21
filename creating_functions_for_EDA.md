@@ -190,7 +190,7 @@ def categorical_to_ordinal_transformer(categories):
 ```
 
 The second function has two parts: first, it takes a dictionary of
-the form as follows: 
+the following form: 
 
 ```
 categorical_numerical_mapping = {'Utilities': ['ELO', 'NoSeWa', 'NoSewr', 'AllPub'],
