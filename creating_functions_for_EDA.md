@@ -196,7 +196,7 @@ Using the previous function we define earlier, it turns the dictionary into this
 
 ```
 transformers = {'Utilities': [0, 1, 2, 3],
-                'Exter Qual': [0, 1, 2, 3, 4],
+                'Exter Qual': <exter_qual_transformer>,
                 'Exter Cond': [0, 1, 2, 3, 4]}
 ```
 The second part of the function is to use the `.map()` method to map this newly
