@@ -188,7 +188,8 @@ def categorical_to_ordinal_transformer(categories):
     return lambda categorical_value: categories.index(categorical_value)
 
 ```
-The second function has two parts: first, it takes a dictionary in
+
+The second function has two parts: first, it takes a dictionary of
 the form as follows: 
 
 ```
