@@ -15,7 +15,7 @@ inconsistency of results caused by accidental differences in the code.
 
 In this blog post, I will walk you through a few useful python functions that I
 created for EDA and Data Cleaning. The library containing all these functions can
-be forked in the [link](https://github.com/FredaXin/eda_and_beyond/blob/master/eda_and_beyond.py).
+be cloned from my repository [`eda_and_beyond`](https://github.com/FredaXin/eda_and_beyond/blob/master/eda_and_beyond.py).
 Special thanks to all the people who contributed to this small (but growing) library. 
 
 ___ 
