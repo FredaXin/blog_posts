@@ -199,7 +199,8 @@ transformers = {'Utilities': [0, 1, 2, 3],
                 'Exter Qual': <exter_qual_transformer>,
                 'Exter Cond': <exter_cond_transfomer>}
 ```
-The second part of the function is to use the `.map()` method to map this newly
+
+The second part of the function uses the `.map()` method to map each transformer function
 created function onto the dataframe. Note that a copy of the original
 dataframe will be created during this function. 
 
