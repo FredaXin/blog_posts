@@ -104,7 +104,7 @@ created by Melissa Humphries at Population Research Center.
 ---
 ## Functions for Data Visualization
 
-Human brain is very good at identify patterns, and this is why visualizing your
+The human brain is very good at identify patterns, and this is why visualizing your
 dataset during the EDA process and identify the patterns can be very beneficial. For instance, histogram
 makes analyzing the distribution of the data an easier task; Boxplot is great for
 identify outliers; Scatter plot is very useful when it comes to checking the
