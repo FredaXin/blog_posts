@@ -105,7 +105,7 @@ created by Melissa Humphries at Population Research Center.
 ## Functions for Data Visualization
 
 The human brain is very good at identify patterns, and this is why visualizing your
-dataset during the EDA process and identify the patterns can be very beneficial. For instance, histogram
+dataset during the EDA process and identifying the patterns can be very beneficial. For instance, histograms
 makes analyzing the distribution of the data an easier task; Boxplot is great for
 identify outliers; Scatter plot is very useful when it comes to checking the
 correlations between two variables. [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) are your best friends
