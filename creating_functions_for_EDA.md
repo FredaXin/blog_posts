@@ -119,7 +119,8 @@ The following function will create a group of plots for all numerical columns in
 dataset. (This function is adapted from Dominik Gawlik's [blog
 post](https://www.kaggle.com/dgawlik/house-prices-eda#Categorical-data), which
 is a great read
-for the entire EDA process with real dataset:
+for the entire EDA process with a real dataset):
+
 ```
 def histograms_numeric_columns(df, numerical_columns):
     '''
