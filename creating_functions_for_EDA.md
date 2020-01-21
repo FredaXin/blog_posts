@@ -125,7 +125,7 @@ for the entire EDA process with a real dataset):
 def histograms_numeric_columns(df, numerical_columns):
     '''
     Takes df, numerical columns as list
-    Returns group histagrams
+    Returns a group of histagrams
     '''
     f = pd.melt(df, value_vars=numerical_columns) 
     g = sns.FacetGrid(f, col='variable',  col_wrap=4, sharex=False, sharey=False)
