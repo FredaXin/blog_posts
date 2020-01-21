@@ -107,7 +107,7 @@ created by Melissa Humphries at Population Research Center.
 The human brain is very good at identify patterns, and this is why visualizing your
 dataset during the EDA process and identifying the patterns can be very beneficial. For instance, histograms
 make analyzing the distribution of the data an easier task; Boxplot is great for
-identify outliers; Scatter plot is very useful when it comes to checking the
+identifying outliers; Scatter plot is very useful when it comes to checking the
 correlations between two variables. [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) are your best friends
 when it comes to data visualization. However, creating individual plot(s) for
 each features can become tedious if you have a large number of features. In this
