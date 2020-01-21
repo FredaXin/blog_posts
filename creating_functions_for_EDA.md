@@ -26,7 +26,7 @@ One important step in the EDA is to inspect missing values, study if there are a
 patterns in the missing values, and make a decision about how to deal with them
 accordingly. 
 
-The first function here is to give you a general ideal of the total and
+The first function here is to give you a general idea of the total and
 percentage of missing data in each column:
 
 ```
