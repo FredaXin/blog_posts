@@ -22,7 +22,7 @@ ___
 
 ## Functions for Handling Missing Values
 
-One important step in the EDA is to inspect missing values, study if there is any
+One important step in the EDA is to inspect missing values, study if there are any
 patterns in the missing values, and make a decision about how to deal with them
 accordingly. 
 
