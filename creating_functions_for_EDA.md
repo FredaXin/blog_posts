@@ -11,7 +11,7 @@ quite often. One way to speed up this process is to recycle some of the code
 you find yourself using over and over again. This is why we should create
 functions to automate the repetitive parts of EDA and Data Cleaning. Another
 benefit of using functions in the EDA and Data Cleaning is to eliminate the
-variances of results caused by the differences in coding. 
+inconsistency of results caused by accidental differences in the code. 
 
 In this blog post, I will walk you through a few useful python functions that I
 created for EDA and Data Cleaning. The library contains all these functions can
