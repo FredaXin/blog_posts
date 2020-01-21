@@ -200,7 +200,7 @@ categorical_numerical_mapping = {'Utilities': ['ELO', 'NoSeWa', 'NoSewr', 'AllPu
 Using the previous function we define earlier, it turns the dictionary into this:
 
 ```
-transformers = {'Utilities': [0, 1, 2, 3],
+transformers = {'Utilities': <utilties_transformer>,
                 'Exter Qual': <exter_qual_transformer>,
                 'Exter Cond': <exter_cond_transfomer>}
 ```
