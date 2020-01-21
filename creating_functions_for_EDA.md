@@ -139,7 +139,7 @@ Another helpful visualization tool is a heatmap. Heatmaps come in very handy whe
 want to check the correlation between your dependent and independent variables.
 Oftentimes, heatmaps can be visually cluttered if you have too many
 features. One way to avoid it is to create a heatmap just for the dependent
-variable(target) and independent variables(features). The following function
+variable (target) and independent variables (features). The following function
 will assist you with this task: 
 
 ```
