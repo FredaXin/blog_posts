@@ -86,6 +86,7 @@ def drop_columns_w_many_nans(df, missing_percent):
     print(list_of_cols)
     return df
 ```
+
 However, there are many downsides of deleting missing values from your dataset,
 such as reduced statistical power. If you decide to impute the missing value
 instead, check out Sklearn's
