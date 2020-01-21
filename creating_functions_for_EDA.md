@@ -73,7 +73,6 @@ def view_columns_w_many_nans(df, missing_percent):
 There are many ways to deal with missing values. If you decide to drop the
 columns with too many missing values (over a certain threshold you specify), you can use this function
 to accomplish the task:
-task:
 ```
 def drop_columns_w_many_nans(df, missing_percent):
     '''
