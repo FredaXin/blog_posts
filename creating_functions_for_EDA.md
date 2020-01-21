@@ -7,7 +7,7 @@ with this whole process.
 
 EDA and Data Cleaning is rarely a one-time, linear process: you might find
 yourself going back to earlier sections and modifying the way you treat the dataset
-quite often. One way to speed up this process is to recycle some of your code
+quite often. One way to speed up this process is to recycle some of the code
 if you find yourself use them over and over again.This is why we should create
 functions to automate the repetitive parts of EDA and Data Cleaning. Another
 benefit of using functions in the EDA and Data Cleaning is to eliminate the
