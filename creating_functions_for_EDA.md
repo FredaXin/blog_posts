@@ -173,7 +173,7 @@ types is required. The following two functions work hand in hand to transform
 categorical features into numerical (ordinal) features: 
 
 The first function is to output a function, i.e. a transformer, that
-will transform each `str` in a list into a `int`, whereas the `int` is the index of
+will transform each `str` in a list into a `int`, where the `int` is the index of
 that element in the list.
 ```
 def categorical_to_ordinal_transformer(categories):
