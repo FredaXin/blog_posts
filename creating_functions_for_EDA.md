@@ -218,7 +218,9 @@ def transform_categorical_to_numercial(df, categorical_numerical_mapping):
         new_df[col] = new_df[col].map(transformer).astype('int64')
     return new_df
 ```
+
 ---
+
 This will conclude my blog post. I aim to create an open source library to make
 the EDA and Data Cleaning process more streamlined. As always, I'd love to hear your feedback. If you have any corrections or want to contribute to this small
 open source project, please make a pull request. Thank you for reading! 
