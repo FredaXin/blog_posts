@@ -93,7 +93,7 @@ instead, check out Sklearn's
 [`SimpleImputer`](https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html)
 module,
 which is an easy-to-use tool to impute missing values whichever way strikes
-yours fancy. 
+your fancy. 
 
 
 In addition, if you'd like to read more about how to deal with missing values, check out this
