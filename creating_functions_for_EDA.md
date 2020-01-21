@@ -5,7 +5,7 @@ we start to develop Machine Learning Models, and they can be quite
 time-consuming, especially for people who are still familiarizing themselves
 with this whole process. 
 
-EDA and Data Cleaning is rarely an one-time linear process; you might find
+EDA and Data Cleaning is rarely a one-time, linear process: you might find
 yourself going back to earlier sections and modify the way you treat the dataset
 quite often. One way to speed up this process is to recycle some of your code
 if you find yourself use them over and over again.This is why we should create
