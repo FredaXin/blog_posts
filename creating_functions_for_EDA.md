@@ -170,7 +170,7 @@ during the EDA and Data Cleaning process. It happens quite often that Pandas'
 data file. Reading the data dictionary is very illuminating during this step.
 Additionally, if you are planning to do some feature engineering, changing data
 types is required. The following two functions work hand in hand to transform
-categorical features into numerical (ordinal): 
+categorical features into numerical (ordinal) features: 
 
 The first function is to output a function, i.e. a transformer, that
 will transform each `str` in a list into a `int`, whereas the `int` is the index of
