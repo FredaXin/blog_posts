@@ -115,7 +115,7 @@ section, I will walk you through a few functions for creating group plots that c
 kill many birds with one function. 
 
 We often want to look at the distributions of columns with numerical values.
-The following function will create a group plot for all numerical columns in your
+The following function will create a group of plots for all numerical columns in your
 dataset. This function is adapted from Dominik Gawlik's [blog
 post](https://www.kaggle.com/dgawlik/house-prices-eda#Categorical-data), which
 is a great read
