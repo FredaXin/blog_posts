@@ -201,7 +201,7 @@ transformers = {'Utilities': [0, 1, 2, 3],
 ```
 
 The second part of the function uses the `.map()` method to map each transformer function
-created function onto the dataframe. Note that a copy of the original
+onto the dataframe. Note that a copy of the original
 dataframe will be created during this function. 
 
 ```
