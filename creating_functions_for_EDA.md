@@ -69,6 +69,7 @@ def view_columns_w_many_nans(df, missing_percent):
     print(columns) 
     return columns
 ```
+
 There are many ways to deal with missing values. If you decide to drop the
 columns with too many missing values (over certain threshold of which you specify), this function can help to achieve this
 task:
