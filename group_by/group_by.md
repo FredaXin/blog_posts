@@ -86,6 +86,7 @@ SELECT Embarked, COUNT(Embarked)
 FROM titanic.train
 GROUP BY Embarked;
 ```
+![image](./images/sql_1.png)
 
 In the `GROUP BY` statement, the column "Embarked" is selected to split the
 dataset. In the second part of the `SELECT` statement, `COUNT()` is chosen as
@@ -120,6 +121,7 @@ SELECT Survived, AVG(Fare)
 FROM titanic.train
 GROUP BY Survived;
 ```
+![image](./images/sql_2.png)
 
 As we can see, the people who survived paid a much higher fare on average than those
 who perished. 
@@ -149,10 +151,10 @@ WITH t1 AS
  (SELECT Pclass, Survived, Count(*) AS n 
   FROM titanic.train
   GROUP BY Pclass, Survived)
-SELECT Pclass, Survived, 100 * n / (SUM(n) OVER (PARTITION BY Pclass))s
+SELECT Pclass, Survived, 100 * n / (SUM(n) OVER (PARTITION BY Pclass)) AS percent
 FROM t1;
 ```
-
+![image](./images/sql_3.png)
 We can conclude that the survival rates decreases as the passenger classes
 decreases. 
 
