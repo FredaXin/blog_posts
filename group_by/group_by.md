@@ -30,7 +30,7 @@ merged and displayed as a new data structure in Step 3.
 
 All the above might still sound rather abstract; let's try it out using a real dataset from 
 the [Titanic Kaggle Competition](https://www.kaggle.com/c/titanic/data). (Note
-that there are two datasets available and I will be using "train.csv" in
+that there are three datasets available and I will be using "train.csv" in
 this blog post.)
 
 ---
@@ -97,6 +97,9 @@ that SQL uses the `FROM` statement to specify which dataset we are working with,
 i.e. the "train" table from the "titanic" schema;
 whereas in `pandas`, we put the name of the data frame in the beginning of the
 `groupby` command. 
+
+It is also worth noting that SQL shows missing values when using `GROUP BY`. From the SQL output we can see that two passengers were missing ports of embarkation.
+
 
 ---
 
