@@ -50,7 +50,7 @@ Now we have seen how list comprehensions work in Python, I will compare them wit
 
 I had a moment of Déjà vu when I first learned about list comprehensions in Python: the syntax looks a lot like [set-builder notation](https://en.wikipedia.org/wiki/Set-builder_notation) in set theory. For comparison, let's express the above Python list comprehension in set-builder notation:
 
-![image](./python_list_comprehensions&set_theory_supporting_docs/set_theory_render.png
+![image](./set_theory_render.png
 )
 
 This can be read as "S is the set of all numbers 'x squared' where x is an item in the set of integers between 0 and 20, for which x doubled is less than 21". Using this as an example, let's compare this notation with Python list comprehension expression: 
@@ -62,7 +62,7 @@ This can be read as "S is the set of all numbers 'x squared' where x is an item 
 
 Despite some subtle differences, the resemblance between set-builder notation and list comprehensions in Python is evident. It is as if list comprehensions in Python are the love child of Set Theory and Python! 
 
-![image info](./python_list_comprehensions&set_theory_supporting_docs/python_set_meme.jpg)  
+![image info](./python_set_meme.jpg)  
 
 Well, this "love child" is not a coincidence: the syntax of list comprehensions in Python was first [introduced](https://www.python.org/dev/peps/pep-0202/#id2) by Barry Warsaw in 2000 as a new feature for Python 2.0. This was inspired by list comprehensions in the functional programming language Haskell. Haskell picked up this feature from Miranda, which is a language designed by British computer scientist [David Turner](https://en.wikipedia.org/wiki/David_Turner_(computer_scientist)) and had a strong influence on Haskell. David Turner mentioned the connection between list comprehensions and set theory in his paper ["Some History of Functional Programming Languages"](https://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf):
 > 

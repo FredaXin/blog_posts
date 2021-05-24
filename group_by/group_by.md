@@ -61,7 +61,7 @@ C, Q, S -- to split our dataset into three categories.
 Note that at this stage, no operation has been performed on the groups. The
 command `train.groupby('Embarked')` merely outputs a `GroupBy` object:
 
-![image](./images/pd_groupby_object.png)
+![image](./pd_groupby_object.png)
 
 **Step 2** is to select the `count()` method as our function, which yields the
 total number for each category. 

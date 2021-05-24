@@ -133,7 +133,7 @@ def histograms_numeric_columns(df, numerical_columns):
     return g
 ```
 Here is what the output looks like: 
-![image](./creating_funcitons_for_EDA/histogram.png)
+![image](./histogram.png)
 
 Another helpful visualization tool is a heatmap. Heatmaps come in very handy when you
 want to check the correlation between your dependent and independent variables.
@@ -159,7 +159,7 @@ def heatmap_numeric_w_dependent_variable(df, dependent_variable):
 As you can see in the output, the correlations becomes easier to read since the
 values are sorted: 
 
-![image](./creating_funcitons_for_EDA/heatmap.png)
+![image](./heatmap.png)
 
 ---
 ## Functions for Changing Data Types
